@@ -5,7 +5,8 @@
   "repository": "https://github.com/justinsisley/Ghost-Starter-Kit",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "start": "gulp"
   },
   "author": "manmademammal@gmail.com",
   "license": "MIT",
