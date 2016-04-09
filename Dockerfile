@@ -4,6 +4,7 @@ MAINTAINER Valentin Ledrapier <valentin.ledrapier@gmail.com>
 
 ADD config.example.js config.example.js
 ADD theme $GHOST_SOURCE/content/themes/custom
+ADD nginx.conf.sigil .
 
 WORKDIR $GHOST_SOURCE/content/themes/custom
 
