@@ -13,7 +13,11 @@ config = {
         mail: {
             transport: 'SMTP',
             options: {
-                host: process.env.MAIL_HOST
+                service: process.env.MAIL_SERVICE,
+                auth: {
+                    user: process.env.MAIL_USER,
+                    pass: process.env.MAIL_PASS
+                }
             },
             from: process.env.MAIL_FROM
         },
@@ -45,7 +49,11 @@ config = {
         mail: {
             transport: 'SMTP',
             options: {
-                host: process.env.MAIL_HOST
+                service: process.env.MAIL_SERVICE,
+                auth: {
+                    user: process.env.MAIL_USER,
+                    pass: process.env.MAIL_PASS
+                }
             },
             from: process.env.MAIL_FROM
         },
